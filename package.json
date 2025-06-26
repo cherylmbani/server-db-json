@@ -4,7 +4,8 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "server": "json-server --watch db.json --port"
+    "server":"json-server --watch db.json --port $PORT"
+"
   },
   "keywords": [],
   "author": "",
